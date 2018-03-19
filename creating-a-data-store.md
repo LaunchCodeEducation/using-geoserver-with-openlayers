@@ -10,7 +10,7 @@ Recall that in GeoServer, every data store belongs to a workspace. Create a new 
 
 ## Creating the Store
 
-Visit _Data &gt; Stores_ and select _Add store_. Select _Shapefile_ from the _Vector Data Sources_ list. Fill out the required fields, and then browser to the _.shp_ file that you previously placed in _stl-parks_ subdirectory of GeoServer's data directory.
+Visit _Data &gt; Stores_ and select _Add store_. Select _Shapefile_ from the _Vector Data Sources_ list. Fill out the required fields, and then browse to the _.shp_ file that you previously placed in _stl-parks_ subdirectory of GeoServer's data directory.
 
 ![](/assets/data-source.png)Upon saving the store, you will immediately be presented with the option of publishing a new layer named _parks_. Let's try to do this.
 

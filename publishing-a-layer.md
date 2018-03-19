@@ -32,11 +32,11 @@ Open the file `epsg.properties` for editing in the text editor nano:
 training@boundless:/var/opt/boundless/suite/geoserver/data/user_projections$ sudo nano epsg.properties
 ```
 
-Use the down arrow key to navigate to the end of the file. We'll past the new SRS definition here. We need to grab the SRS defintion, so let's head over to [epsg.io](http://epsg.io/), a site that is a reference for coordinate system definitions.
+Use the down arrow key to navigate to the end of the file. We'll add the new SRS definition here. We need to grab the SRS defintion, so let's head over to [epsg.io](http://epsg.io/), a site that is a reference for coordinate system definitions.
 
 Search for "1983 missouri 2401" and the first result you see should be the coordinate system we're looking for, "NAD 1983 StatePlane Missouri East FIPS 2401 Feet." Select this result to see the full details. Select and copy the GeoServer version of the coordinate system.
 
-Back in your open text editor, on a new line at the end of the file, paste in the definition. Then use `ctrl+X` to quite nano, select "Yes" when asked if you want to save the file.
+Back in your open text editor, on a new line at the end of the file, paste in the definition. Then use `ctrl+X` to quit nano, select "Yes" when asked if you want to save the file.
 
 To finish up, we need to restart GeoServer:
 

@@ -18,7 +18,7 @@ Clone the repository, renaming the project directory as you do so:
 $ git clone https://github.com/LaunchCodeEducation/openlayers-template.git stl-parks
 ```
 
-Then create a new GitHub repository named `stl-parks` in your account to store your project code. Connect you local repository to your new remote repository by running these Git commands from the project root
+Then create a new GitHub repository named `stl-parks` in your account to store your project code. Connect your local repository to your new remote repository by running these Git commands from the project root
 
 ```
 $ git remote rm origin

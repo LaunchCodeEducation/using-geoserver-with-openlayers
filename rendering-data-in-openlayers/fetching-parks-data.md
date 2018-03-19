@@ -1,6 +1,6 @@
 # Fetching Parks Data
 
-For these last two sections, we leave some details to you to figure out. Refer to the [OpenLayers Workshop](https://openlayers.org/workshop/en/) and the [OpenLayers API](http://openlayers.org/en/latest/apidoc/index.html) whenever get stuck or need more info. Everything we'll ask you to do will either have been covered in the workshop, or will be covered in another related resource that we'll provide.
+For these last sections, we leave some details to you to figure out. Refer to the [OpenLayers Workshop](https://openlayers.org/workshop/en/) and the [OpenLayers API](http://openlayers.org/en/latest/apidoc/index.html) whenever get stuck or need more info. Everything we'll ask you to do will either have been covered in the workshop, or will be covered in another related resource that we'll provide.
 
 ## Creating the Layer
 
@@ -120,7 +120,7 @@ The request is first handled by this function:
 
 which turns the response string into JSON.
 
-The next handler uses the OpenLayers API to parse the JSON object into GeoJSON format and extract the features. It then addes the features to the map. Finally, it zooms the map to fit around the given set of features.
+The next handler uses the OpenLayers API to parse the JSON object into GeoJSON format and extract the features. It then adds the features to the map. Finally, it zooms the map to fit around the given set of features.
 
 ```
 .then(function(json) {
