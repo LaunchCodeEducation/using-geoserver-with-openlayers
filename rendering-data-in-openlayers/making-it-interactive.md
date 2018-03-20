@@ -37,7 +37,7 @@ Once you have the extent, you might try to position the overlay at, say, the top
 
 When you tried using the exact values of the extent, the overlay was rarely, if ever, positioned in a way in which it touched the given park. This is because the corner of the bounding box is usually outside of a feature's geometry. What we really want to do is to position the overlay at the point on the park's geometry that is _closest_ to the top left corner. Thankfully, there's a method to help us with this!
 
-`getClosestPoint` can be called on a geometry object. It takes as a parameter a point, and it returns the point within the given geometry that is closest to the point paramter that it is given. [Read about the method](http://openlayers.org/en/latest/apidoc/ol.geom.Geometry.html#getClosestPoint), and then use it to obtain the point within a park that is closes to the top left corner of its bounding box. Then, position the overlay at this point.
+`getClosestPoint` can be called on a geometry object. It takes as a parameter a point, and it returns the point within the given geometry that is closest to the point paramter that it is given. [Read about the method](http://openlayers.org/en/latest/apidoc/ol.geom.Geometry.html#getClosestPoint), and then use it to obtain the point within a park that is closest to the top left corner of its bounding box. Then, position the overlay at this point.
 
 When you have it working, your map will look something like this:
 
