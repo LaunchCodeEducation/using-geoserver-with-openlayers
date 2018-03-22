@@ -1,10 +1,10 @@
 # Enabling CORS in GeoServer
 
-CORS stands for **Cross-Origin Resource Sharing**, and it refers to the ability of a JavaScript resource from one origin to access resrouces from another origin.
+CORS stands for **Cross-Origin Resource Sharing**, and it refers to the ability of a JavaScript resource from one origin to access resources from another origin.
 
 For example, a script hosted at `mydomain.com` may not access resources at `yourdomain.com` unless the latter domain allows it to do so. This is a security precaution, to prevent malicious scripts from accessing resources they shouldn't have access to. Most servers disable CORS to some degree \(or entirely\). Resource sharing can be enabled at-large \(for requests from any origin\) or on a case-by-case basis \(only for some origins\).
 
-We encourage you to [read more about CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), as it is an essntial topic for anybody doing front-end development.
+We encourage you to [read more about CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), as it is an essential topic for anybody doing front-end development.
 
 If you were to try to access data from GeoServer \(hosted at `localhost:8080`\) via your OpenLayers/JavaScript app \(hosted at `localhost:3000`\) you would likely see an error in  your browser console referring to the `Access-Control-Allow-Origin` HTTP header \(i.e. GeoServer\). This header is set by the server that is restricting cross-origin access. To enable CORS, we need to update GeoServer's configuration.
 
